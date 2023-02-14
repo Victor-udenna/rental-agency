@@ -1,0 +1,76 @@
+{
+    "biodata": [
+      {
+        "firstName": "victor",
+        "surName": "okwuosa",
+        "email": "victorudenna@gmail.com",
+        "phoneNumber": "0908863343",
+        "gender": "male",
+        "stateOfOrigin": "imo",
+        "id": 1
+      },
+      {
+        "id": 3,
+        "firstName": "emmanuel",
+        "LastName": "sanni",
+        "email": "ayosani@gmail.com",
+        "gender": "male",
+        "phonenumber": "09122334532",
+        "stateOfOrigin": "oyo"
+      },
+      {
+        "firstName": "okwuosa ",
+        "surName": "victor",
+        "email": "fff@gmail.com",
+        "phoneNumber": "0902282822",
+        "gender": "male",
+        "stateOfOrigin": "kano",
+        "id": 4
+      },
+      {
+        "firstName": "john",
+        "LastName": "doe",
+        "email": "johndoe@gmail.com",
+        "phoneNumber": "080892657244",
+        "gender": "male",
+        "stateOfOrigin": "england",
+        "id": 5
+      },
+      {
+        "firstName": "Okwuosa",
+        "LastName": "derek",
+        "email": "derekokwuosa@gmail.com",
+        "gender": "",
+        "phonenumber": "09088667583",
+        "stateOfOrigin": "ima",
+        "id": 6
+      },
+      {
+        "firstName": "Okwuosa",
+        "LastName": "victor",
+        "email": "victorudenna@gmail.com",
+        "gender": "",
+        "phonenumber": "09088554433",
+        "stateOfOrigin": "imo",
+        "id": 7
+      },
+      {
+        "firstName": "Okwuosa ",
+        "LastName": "Eric",
+        "email": "ericleo77@gmail,com",
+        "gender": "",
+        "phonenumber": "78i4r9398384384",
+        "stateOfOrigin": "imo state",
+        "id": 8
+      },
+      {
+        "firstName": "Victor",
+        "LastName": "okwuosa",
+        "email": "victorudenna@gmail.com",
+        "gender": "male",
+        "phonenumber": "099228829921",
+        "stateOfOrigin": "Georgia",
+        "id": 9
+      }
+    ]
+  }
