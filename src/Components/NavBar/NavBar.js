@@ -5,14 +5,12 @@ import Mobilenav from "../Mobilenav/Mobilenav";
 const NavBar = () => {
   return (
     <Fragment>
-
-<div className="md:hidden">
-        <Mobilenav />
+      <div className="block md:hidden">
+      <Mobilenav />
       </div>
-      <div className="hidden md:block">
-        {" "}
+        <div className="hidden md:block">
         <DesktopNav />
-      </div>
+        </div>
     </Fragment>
   );
 };

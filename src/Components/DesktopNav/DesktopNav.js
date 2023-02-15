@@ -3,16 +3,16 @@ import logo from "../../assets/images/logo 1.png";
 
 const DesktopNav = () => {
   return (
-    <div className="desktop_nav bg-primary_bg grid grid-cols-2 items-center  px-10 py-5 w-screen">
+    <div className="hidden md:flex desktop_nav flex justify-between items-center  w-screen overflow-none  border-b-2">
       <div>
-        <img src={logo} className="w-[150px] " />
+        <img src={logo} className="w-[150px] z-20 relative" />
       </div>
-      <div>
-        <ul className="text-white text-[18px] flex items-center justify-between">
-          <li className="active">Home</li>
-          <li>Landloard</li>
-          <li>Tenant</li>
-          <li>Contact Us</li>
+      <div className="z-20 relative">
+        <ul className="text-white text-[16px] flex items-center justify-between">
+          <li className=" border-b-4 py-7 cursor-pointer pr-10">Home</li>
+          <li className="cursor-pointer pr-10">Landloard</li>
+          <li className="cursor-pointer pr-10">Tenant</li>
+          <li className="pr-5 cursor-pointer">Contact Us</li>
         </ul>
       </div>
     </div>
