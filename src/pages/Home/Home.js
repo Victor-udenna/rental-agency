@@ -8,10 +8,8 @@ import {Features} from "../../Components";
   return (
 <Fragment>
 <section className='m-0 p-0 overflow-hidden'>
-<div className='banner h-[100vh] relative bg-banner_bgImage bg-no-repeat bg-cover bg-center bg-auto'>
 <NavBar/>
 <Banner/>
-</div>
 <Features/>
 </section>
 </Fragment>
