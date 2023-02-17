@@ -10,7 +10,6 @@ return(
 <div className='font-bold text-xl text-secondary_bg'>
     <p>{topText}<br/>
     {bottomText}</p>
-    
 </div>
         </div>
     </Fragment>

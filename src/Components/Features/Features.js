@@ -10,7 +10,7 @@ import cardimg6 from "../../assets/images/eye.png";
 
 const Features = () =>{
     return(
-<section className="">
+<section className="py-20">
 <p className=" py-20 text-secondary_bg leading-relaxed font-bold py-10 text-xl md:text-2xl lg:text-3xl"><span className="span border-b-2 border-orange-500">Minimun living Cost </span>
  Takes Care Of Everything</p>
 
@@ -50,7 +50,7 @@ bottomText="you use !"/>
 </div>
 
 
-
+{/* <img src='' alt='' className="w-[400px]"/> */}
  </div>
 </section>
     )

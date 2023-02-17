@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import NavBar from "../../Components/NavBar/NavBar";
 import { Banner } from '../../Components';
 import {Features} from "../../Components";
+import {Properties} from "../../Components";
 
 
  const Home = () => {
@@ -11,6 +12,7 @@ import {Features} from "../../Components";
 <NavBar/>
 <Banner/>
 <Features/>
+<Properties/>
 </section>
 </Fragment>
   )
