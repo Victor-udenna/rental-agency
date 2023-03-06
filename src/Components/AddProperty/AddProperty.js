@@ -18,7 +18,7 @@ const AddProperty = () => {
         Out!
       </p>
 
-     <section>
+     <section className="form_container">
        <p className="font-bold text-orange-500 text-lg md:text-xl lg:text-2xl text-center py-7 md:py-10 lg:py-20">Add A New Property</p>
      <div className="input_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 

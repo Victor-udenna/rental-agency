@@ -4,6 +4,7 @@ import { AddProperty, Banner } from '../../Components';
 import {Features} from "../../Components";
 import {Properties} from "../../Components";
 import {Options} from "../../Components";
+import {Article} from "../../Components";
 
 
  const Home = () => {
@@ -16,6 +17,7 @@ import {Options} from "../../Components";
 <Properties/>
 <Options/>
 <AddProperty/>
+<Article/>
 </section>
 </Fragment>
   )

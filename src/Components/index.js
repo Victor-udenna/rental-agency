@@ -7,3 +7,5 @@ export {default as Features} from "./Features/Features";
 export {default  as Properties} from "./Properties/Properties";
 export {default as Options} from "./Options/Options";
 export {default as AddProperty} from "./AddProperty/AddProperty";
+export {default as Article} from "./Article/Article";
+export {default as Owners_card} from "./Owners_card/Owners_card";
