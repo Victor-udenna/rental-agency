@@ -13,7 +13,8 @@ const AddProperty = () => {
   };
   return (
     <Fragment>
-      <p className="text-center text-lg md:text-xl">
+<section className="px-10 lg:px-20">
+<p className="text-center text-lg md:text-xl py-10 font-bold">
         Your property with us and be Confident that Your Room will be Filled
         Out!
       </p>
@@ -93,6 +94,7 @@ const AddProperty = () => {
     <AddImg/>
     <button className="text-white bg-orange-500 p-3 rounded-lg font-bold my-10">Add New Property</button>
      </section>
+</section>
     </Fragment>
   );
 };

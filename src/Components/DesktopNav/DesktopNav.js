@@ -3,7 +3,7 @@ import logo from "../../assets/images/logo 1.png";
 
 const DesktopNav = () => {
   return (
-    <div className="bg-secondary_bg hidden md:flex desktop_nav flex justify-between items-center  w-screen overflow-none  border-b-2">
+    <div className=" px-20 bg-secondary_bg hidden md:flex desktop_nav flex justify-between items-center  w-screen overflow-none  border-b-2">
       <div>
         <img src={logo} className="w-[150px]" />
       </div>

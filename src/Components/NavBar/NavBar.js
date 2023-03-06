@@ -5,7 +5,7 @@ import Mobilenav from "../Mobilenav/Mobilenav";
 const NavBar = () => {
   return (
     <Fragment>
-      <div className="block md:hidden">
+      <div className=" block md:hidden">
       <Mobilenav />
       </div>
         <div className="hidden md:block">

@@ -2,15 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.mobile_nav.active{
-    background-color: #0b1c38;
-    color: white;
-    position: absolute;
-    width: 90%;
-    height: 58%;
-    border-radius: 50px 0px;
-    padding: 10px;
-}
+/* .mobile_nav.active{ */
+    /* background-color: #0b1c38; */
+    /* color: white; */
+    /* position: absolute; */
+    /* width: 90%; */
+    /* height: 58%; */
+    /* border-radius: 50px 0px; */
+    /* padding: 10px; */
+/* } */
 .mobile_nav.inactive{
     display: none;
 }
@@ -37,7 +37,7 @@
     .form_container{
         box-shadow: 0px 4px 63px rgba(0, 0, 0, 0.15);
 border-radius: 10px;
-width: 80%;
+padding: 2rem;
 margin: auto;
     }
 

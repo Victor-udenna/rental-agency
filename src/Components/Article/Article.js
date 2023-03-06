@@ -9,7 +9,7 @@ const  Article =()=>{
     let card3 = Ownerdata[2]
 return(
     <Fragment>
-<section className="grid grid-col-1 lg:grid-cols-2">
+<section className=" py-10 grid grid-col-1 lg:grid-cols-2 lg:py-28">
 <div className=" bg-[#F4511E12] py-10  w-[100%]  lg:h-[336px] mt-10">
 <Owners_card
 role={initialDetial.role}
@@ -17,7 +17,7 @@ details={initialDetial.details}
 image={initialDetial.image}
 name={initialDetial.name}/>
 
-<div className="flex">
+<div className="flex pl-10 lg:pl-20">
     <div className="w-[10px] rounded-full  bg-orange-500 h-[10px]" onClick={()=> setIntialDetail(card1)}></div>
     <div className="w-[10px] rounded-full  bg-orange-500 h-[10px] mx-3" onClick={()=> setIntialDetail(card2)}></div>
     <div className="w-[10px] rounded-full  bg-orange-500 h-[10px]" onClick={()=> setIntialDetail(card3)}></div>

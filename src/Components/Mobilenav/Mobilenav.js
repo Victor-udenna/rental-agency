@@ -10,7 +10,7 @@ const Mobilenav = () => {
 
   return (
     <Fragment>
-      <nav className=" bg-secondary_bg py-5  flex items-center justify-between md:hidden">
+      <nav className=" px-10 bg-secondary_bg py-5  flex items-center justify-between md:hidden">
         <div>
           <img src={logo} className=" w-[100px]" />
         </div>
@@ -24,11 +24,11 @@ const Mobilenav = () => {
       </nav>
 
       <div
-        className={`mobile_nav  z-20 cursor-pointer ${
+        className={`mobile_nav text-white border-b-2 border-slate-300 bg-secondary_bg cursor-pointer ${
           dropdown ? "active" : "inactive"
-        } my-4 mx-2 `}
+        }  `}
       >
-        <ul>
+        <ul className="bg-secondary_bg">
           <li className="active_list p-5">Home</li>
           <li className="p-5">Landloard</li>
           <li className="p-5">Tenant</li>

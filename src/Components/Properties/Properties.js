@@ -28,7 +28,7 @@ const Properties = () => {
 console.log(postperpage.length)
   return (
     <Fragment>
-      <section className="py-10 flex justify-between items-center">
+      <section className=" px-10 py-10 flex justify-between items-center lg:px-20">
         {" "}
         <h2 className="text-2xl font-bold py-4">
           <span className="border-b-4 border-orange-500">List </span>Of
@@ -38,7 +38,7 @@ console.log(postperpage.length)
           View All Property
         </button>
       </section>
-      <div className="">
+      <div className="px-10">
         <div className="py-10 px-5 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
           {currentProperty?.map((items) => {
             return propertydata.length ? (

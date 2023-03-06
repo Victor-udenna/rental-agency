@@ -10,8 +10,8 @@ import cardimg6 from "../../assets/images/eye.png";
 
 const Features = () =>{
     return(
-<section className="py-20">
-<p className=" py-20 text-secondary_bg leading-relaxed font-bold py-10 text-xl md:text-2xl lg:text-3xl"><span className="span border-b-2 border-orange-500">Minimun living Cost </span>
+<section className="py-20 px-10 md:px-20">
+<p className=" pb-20 text-secondary_bg leading-relaxed font-bold py-10 text-xl md:text-2xl lg:text-3xl"><span className="span border-b-2 border-orange-500">Minimun living Cost </span>
  Takes Care Of Everything</p>
 
  <div className="grid grid-cols-1  lg:grid-cols-2 gap-10">

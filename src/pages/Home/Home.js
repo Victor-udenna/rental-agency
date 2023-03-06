@@ -5,6 +5,7 @@ import {Features} from "../../Components";
 import {Properties} from "../../Components";
 import {Options} from "../../Components";
 import {Article} from "../../Components";
+import {Footer} from "../../Components";
 
 
  const Home = () => {
@@ -18,6 +19,7 @@ import {Article} from "../../Components";
 <Options/>
 <AddProperty/>
 <Article/>
+<Footer/>
 </section>
 </Fragment>
   )
