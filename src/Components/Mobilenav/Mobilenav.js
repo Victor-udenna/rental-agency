@@ -14,7 +14,6 @@ const Mobilenav = () => {
         <div>
           <img src={logo} className=" w-[100px]" />
         </div>
-
         <div onClick={toggle}>
           {!dropdown ? (
             <FaBars color="white" size={25} />
@@ -25,7 +24,7 @@ const Mobilenav = () => {
       </nav>
 
       <div
-        className={`mobile_nav cursor-pointer ${
+        className={`mobile_nav  z-20 cursor-pointer ${
           dropdown ? "active" : "inactive"
         } my-4 mx-2 `}
       >

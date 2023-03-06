@@ -9,7 +9,6 @@ const Property_Card = ({imageURL, address, roomtype, price, bed_no, bath_no, flo
             <div className="h-[60%]">
                 <img className="h-[100%] w-[100%] rounded-t-xl" src={imageURL}/>
             </div>
-
       <div className=" px-3 border-x-2 border-b-2 border-slate-300 rounded-b-xl pb-3">
       <p className="text-lg font-bold py-5">{address}</p>
             <p className="text-sm text-slate-400">{roomtype}</p>

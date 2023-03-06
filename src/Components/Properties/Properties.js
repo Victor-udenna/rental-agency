@@ -24,8 +24,8 @@ const Properties = () => {
 
   const lastPostIndex = currentPage * postperpage;
   const firstpostindex = lastPostIndex - postperpage;
-  const currentPost = propertydata.slice(firstpostindex, lastPostIndex);
-
+  const currentProperty = propertydata.slice(firstpostindex, lastPostIndex);
+console.log(postperpage.length)
   return (
     <Fragment>
       <section className="py-10 flex justify-between items-center">
@@ -34,13 +34,13 @@ const Properties = () => {
           <span className="border-b-4 border-orange-500">List </span>Of
           Properties
         </h2>
-        <button className="text-white bg-orange-500 p-5 rounded-lg">
+        <button className="text-white bg-orange-500 p-5 rounded-lg font-bold">
           View All Property
         </button>
       </section>
       <div className="">
         <div className="py-10 px-5 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
-          {currentPost?.map((items) => {
+          {currentProperty?.map((items) => {
             return propertydata.length ? (
               <Property_Card
                 key={items.id}
@@ -57,7 +57,7 @@ const Properties = () => {
             );
           })}
         </div>
-
+        <Pagination totalPosts={currentProperty.length} postPerPage={postperpage}/>
         <ul className=" border-2 border-slate-200 text-white w-[300px]  mx-auto flex justiy-center items-center font-bold">
           <li className=" border-r-2 text-orange-500 cursor-pointer w-[87px] h-[60px]  flex flex-col justify-center items-center hover:bg-orange-500 hover:text-white">
             Prev
@@ -76,7 +76,6 @@ const Properties = () => {
           </li>
         </ul>
       </div>
-<Pagination/>
  </Fragment>
   );
 };

@@ -1,8 +1,9 @@
 import React, { Fragment } from 'react'
 import NavBar from "../../Components/NavBar/NavBar";
-import { Banner } from '../../Components';
+import { AddProperty, Banner } from '../../Components';
 import {Features} from "../../Components";
 import {Properties} from "../../Components";
+import {Options} from "../../Components";
 
 
  const Home = () => {
@@ -13,6 +14,8 @@ import {Properties} from "../../Components";
 <Banner/>
 <Features/>
 <Properties/>
+<Options/>
+<AddProperty/>
 </section>
 </Fragment>
   )
