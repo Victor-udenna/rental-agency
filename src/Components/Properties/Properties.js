@@ -21,11 +21,9 @@ const Properties = () => {
         console.log(error);
       });
   }, []);
-
   const lastPostIndex = currentPage * postperpage;
   const firstpostindex = lastPostIndex - postperpage;
   const currentProperty = propertydata.slice(firstpostindex, lastPostIndex);
-console.log(postperpage.length)
   return (
     <Fragment>
       <section className=" px-10 py-10 flex justify-between items-center lg:px-20">
@@ -38,8 +36,8 @@ console.log(postperpage.length)
           View All Property
         </button>
       </section>
-      <div className="px-10">
-        <div className="py-10 px-5 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
+      <div className="px-10 lg:px-20">
+        <div className=" property_container py-10 px-5 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
           {currentProperty?.map((items) => {
             return propertydata.length ? (
               <Property_Card

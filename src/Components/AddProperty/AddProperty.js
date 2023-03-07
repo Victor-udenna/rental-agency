@@ -24,7 +24,7 @@ const AddProperty = () => {
      <div className="input_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
         <InputField id="name" label="Name" type="text" />
-        <InputField id="surname" label="Surname" type="number" />
+        <InputField id="surname" label="Surname" type="text" />
         <InputField id="unitnumber" label="Unit number" type="number" />
 
         <div>

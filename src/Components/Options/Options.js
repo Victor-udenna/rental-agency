@@ -5,7 +5,7 @@ import Options_card from "../Options_card/Options_card";
 const Options =()=>{
     return(
 <Fragment>
-<section className=" px-10 flex justify-between flex-col py-20 lg:grid grid-cols-2 gap-10 lg:py-40 lg: px-20">
+<section className=" px-10 flex justify-between flex-col py-20 lg:grid grid-cols-2 gap-10 lg:py-40 lg:px-20">
 <div className=" w-[100%]">
 <Options_card/>
     </div>
