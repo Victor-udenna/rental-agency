@@ -23,7 +23,7 @@ name={initialDetial.name}/>
     <div className="w-[10px] rounded-full  bg-orange-500 h-[10px]" onClick={()=> setIntialDetail(card3)}></div>
 </div>
 </div>
-        <div className=" pl-10 mt-10 pb-16 h-[400px]   w-[100%] lg:pl-20">
+        <div className=" pl-10 mt-10 pb-16 h-[400px]   w-[100%] lg:pl-0">
         <iframe className=" iframe lg:w-[100%]" width="100%" height="100%" src="https://www.youtube.com/embed/zumJJUL_ruM" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"></iframe>
         </div>
 

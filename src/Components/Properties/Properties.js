@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 import Property_Card from "../Property_Card/Property_Card";
 
 const Properties = () => {
@@ -23,9 +24,9 @@ const Properties = () => {
           <span className="border-b-4 border-orange-500">List </span>Of
           Properties
         </h2>
-        <button className="text-white bg-orange-500  p-3 text-[10px] rounded-lg font-bold lg:text-[16px]">
+ <Link to='/AllProperties'>       <button className="text-white bg-orange-500  p-3 text-[10px] rounded-lg font-bold lg:text-[16px]">
           View Property
-        </button>
+        </button></Link>
       </section>
       <div className="px-10 lg:px-20">
         <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">

@@ -2,6 +2,7 @@ import React, { Fragment, useState } from "react";
 import logo from "../../assets/images/logo 1.png";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Mobilenav = () => {
   const [dropdown, setDropdown] = useState(false);
@@ -28,10 +29,10 @@ const Mobilenav = () => {
         }  `}
       >
         <ul className=" pl-5 bg-secondary_bg">
-          <li className="active_list p-5">Home</li>
-          <li className="p-5">Landloard</li>
-          <li className="p-5">Tenant</li>
-          <li className="p-5">Contact Us</li>
+         <Link to="/"><li className="active_list p-5">Home</li></Link> 
+          <Link to="/Landlord"><li className="p-5">Landloard</li></Link>
+          <Link to="/Tenant"><li className="p-5">Tenant</li></Link>
+          <Link to="/ContactUs"><li className="p-5">Contact Us</li></Link>
         </ul>
       </div>
     </Fragment>
