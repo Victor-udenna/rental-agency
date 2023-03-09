@@ -6,7 +6,6 @@ import { AiOutlineClose } from "react-icons/ai";
 const Mobilenav = () => {
   const [dropdown, setDropdown] = useState(false);
   const toggle = () => setDropdown(!dropdown);
-  console.log(dropdown);
 
   return (
     <Fragment>
@@ -28,7 +27,7 @@ const Mobilenav = () => {
           dropdown ? "active" : "inactive"
         }  `}
       >
-        <ul className="bg-secondary_bg">
+        <ul className=" pl-5 bg-secondary_bg">
           <li className="active_list p-5">Home</li>
           <li className="p-5">Landloard</li>
           <li className="p-5">Tenant</li>

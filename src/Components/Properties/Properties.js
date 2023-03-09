@@ -1,19 +1,13 @@
 import React, { Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import Property_Card from "../Property_Card/Property_Card";
-import Pagination from "../Pagination/Pagination";
 
 const Properties = () => {
   const [propertydata, setpropertydata] = useState([]);
 
-  const [currentPage, setCurrentPage] = useState(1);
-// set current page
-  const [postperpage, setPostPerpage] = useState(6);
-// controls the numbers of post perpage
-
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/property_data`)
+      .get(`http://localhost:5000/property_data?_page=1&_limit=6`)
       .then((response) => {
         setpropertydata(response.data);
       })
@@ -21,9 +15,6 @@ const Properties = () => {
         console.log(error);
       });
   }, []);
-  const lastPostIndex = currentPage * postperpage;
-  const firstpostindex = lastPostIndex - postperpage;
-  const currentProperty = propertydata.slice(firstpostindex, lastPostIndex);
   return (
     <Fragment>
       <section className=" px-10 py-10 flex justify-between items-center lg:px-20">
@@ -32,14 +23,14 @@ const Properties = () => {
           <span className="border-b-4 border-orange-500">List </span>Of
           Properties
         </h2>
-        <button className="text-white bg-orange-500 p-5 rounded-lg font-bold">
-          View All Property
+        <button className="text-white bg-orange-500  p-3 text-[10px] rounded-lg font-bold lg:text-[16px]">
+          View Property
         </button>
       </section>
       <div className="px-10 lg:px-20">
-        <div className=" property_container py-10 px-5 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
-          {currentProperty?.map((items) => {
-            return propertydata.length ? (
+        <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
+          {propertydata?.map((items) => {
+            return  (
               <Property_Card
                 key={items.id}
                 roomtype={items.roomType}
@@ -50,12 +41,9 @@ const Properties = () => {
                 imageURL={items.imageURL}
                 price={items.price}
               />
-            ) : (
-              "move to the next page"
-            );
+            ) 
           })}
         </div>
-        <Pagination totalPosts={currentProperty.length} postPerPage={postperpage}/>
         <ul className=" border-2 border-slate-200 text-white w-[300px]  mx-auto flex justiy-center items-center font-bold">
           <li className=" border-r-2 text-orange-500 cursor-pointer w-[87px] h-[60px]  flex flex-col justify-center items-center hover:bg-orange-500 hover:text-white">
             Prev
