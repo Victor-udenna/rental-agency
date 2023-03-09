@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { NavBar } from "../../Components";
 import {Banner} from "../../Components";
-import {Article} from "../../Components";
 import {Footer} from "../../Components";
 import {InputField} from "../../Components";
 import {FaPaperPlane} from 'react-icons/fa';
@@ -31,7 +30,6 @@ const ContactUs =()=>{
     <button className=" flex  items-center text-white bg-orange-500 p-3 rounded-lg font-bold my-10">Send <span className="pl-2"><FaPaperPlane/></span></button>
      </section>
 </section>
-<Article/>
 <Footer/>
 </Fragment>
     );
