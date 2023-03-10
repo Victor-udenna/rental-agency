@@ -8,7 +8,7 @@ const Properties = () => {
 
   useEffect(() => {
     axios
-      .get(`http://localhost:5000/property_data?_page=1&_limit=6`)
+      .get(`http://localhost:5000/property_data`)
       .then((response) => {
         setpropertydata(response.data);
       })
