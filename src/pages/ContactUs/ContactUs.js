@@ -12,7 +12,7 @@ const ContactUs =()=>{
 <NavBar/>
 <Banner/>
 
-<section className=" pt-10 px-10 lg:px-20 lg:pt-28">
+<section className=" pt-10 px-10 lg:px-20 lg:pt-28 mb-20">
 <section className="form_container">
        <p className="font-bold text-orange-500 text-lg md:text-xl lg:text-2xl text-center py-7 md:py-10 lg:py-20 lg:text-start">Contact Us</p>
      <div className="input_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">

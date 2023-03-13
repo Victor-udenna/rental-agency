@@ -5,7 +5,7 @@ import layer from "../../assets/images/layer.png";
 
 const Property_Card = ({imageURL, address, roomtype, price, bed_no, bath_no, floor})=>{
     return(
-        <div className=" pr-0 card_property w-[300px] h-[400px] flex flex-col justify-between mb-5 lg:mb-7 xl:w-[300px]">
+        <div className=" pr-0 card_property w-[300px] h-[400px] flex flex-col justify-between mb-5 lg:mb-7 justify-between xl:w-[300px]">
             <div className="h-[60%]">
                 <img className="h-[100%] w-[100%] rounded-t-xl" src={imageURL}/>
             </div>
@@ -28,5 +28,4 @@ const Property_Card = ({imageURL, address, roomtype, price, bed_no, bath_no, flo
         </div>
     );
 }
-
 export default Property_Card;
