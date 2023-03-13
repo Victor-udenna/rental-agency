@@ -14,7 +14,7 @@ const ContactUs =()=>{
 
 <section className=" pt-10 px-10 lg:px-20 lg:pt-28 mb-20">
 <section className="form_container">
-       <p className="font-bold text-orange-500 text-lg md:text-xl lg:text-2xl text-center py-7 md:py-10 lg:py-20 lg:text-start">Contact Us</p>
+       <p className="font-bold text-green-500 text-lg md:text-xl lg:text-2xl text-center py-7 md:py-10 lg:py-20 lg:text-start">Contact Us</p>
      <div className="input_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         <InputField id="name" label="Name" type="text" />
         <InputField id="surname" label="Surname" type="text" />
@@ -23,7 +23,7 @@ const ContactUs =()=>{
         <InputField id="subject" label="Subject" type="text" />
       </div>
       <div>
-        <label className="font-bold" htmlFor="description">Message <span className="text-orange-500"> *</span></label>
+        <label className="font-bold" htmlFor="description">Message <span className="text-green-500"> *</span></label>
         <br/>
         <textarea id="description" className=" px-2 rounded-[5px] mt-3 mb-5 w-[100%] h-[200px] border-2 border-[#DDDDDD]"></textarea>
      </div>

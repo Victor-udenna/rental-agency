@@ -12,7 +12,7 @@ const Property_Card = ({imageURL, address, roomtype, price, bed_no, bath_no, flo
       <div className=" px-3 border-x-2 border-b-2 border-slate-300 rounded-b-xl pb-3">
       <p className="text-lg font-bold py-5">{address}</p>
             <p className="text-sm text-slate-400">{roomtype}</p>
-            <p className="text-orange-500 font-bold text-xl pb-3">{price}/month</p>
+            <p className="text-green-500 font-bold text-xl pb-3">{price}/month</p>
             <div className="flex justify-between items-center border-top-2 border-400">
                 <div className=" grid grid-cols-2 gap-1 items-center">
              <span className="px-2"><img  src={bedIcon} alt=""/></span> <span>{bed_no}</span>

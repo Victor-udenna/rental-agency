@@ -1,17 +1,17 @@
 import React from "react";
 import featureImg from "../../assets/images/feature.png";
 import FeatureCard from "../FeatureCard/FeatureCard";
-import cardimg1 from "../../assets/images/dollar.png";
-import cardimg2 from "../../assets/images/building.png";
-import cardimg3 from "../../assets/images/stack.png";
-import cardimg4 from "../../assets/images/leaf.png";
-import cardimg5 from "../../assets/images/guard.png";
-import cardimg6 from "../../assets/images/eye.png";
+import cardimg1 from "../../assets/images/dollar.svg";
+import cardimg2 from "../../assets/images/buildings.svg";
+import cardimg3 from "../../assets/images/layers.svg";
+import cardimg4 from "../../assets/images/flower3.svg";
+import cardimg5 from "../../assets/images/shield.svg";
+import cardimg6 from "../../assets/images/eye.svg";
 
 const Features = () =>{
     return(
 <section className="py-20 px-10 md:px-20">
-<p className=" pb-20 text-secondary_bg leading-relaxed font-bold py-10 text-xl md:text-2xl lg:text-3xl"><span className="span border-b-2 border-orange-500">Minimun living Cost </span>
+<p className=" pb-20 text-secondary_bg leading-relaxed font-bold py-10 text-xl md:text-2xl lg:text-3xl"><span className="span border-b-2 border-green-500">Minimun living Cost </span>
  Takes Care Of Everything</p>
 
  <div className="grid grid-cols-1  lg:grid-cols-2 gap-10">

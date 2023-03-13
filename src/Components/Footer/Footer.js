@@ -10,20 +10,20 @@ import {BsFillTelephoneFill} from "react-icons/bs";
 const Footer =()=> {
     return(
       <Fragment>
-    <footer className="  px-10 pt-28 pb-10 border-t-2 border-orange-500 text-sm lg:px-20">
+    <footer className="  px-10 pt-28 pb-10 border-t-2 border-green-500 text-sm lg:px-20">
 <div className="grid grid-cols-1 lg:grid-cols-2">
     <p className="text-4xl font-bold pb-10">Logo</p>
     <div>
-        <p className="flex items-center gap-1 pb-10"><span className="text-orange-500"><HiLocationMarker/></span>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
+        <p className="flex items-center gap-1 pb-10"><span className="text-green-500"><HiLocationMarker/></span>345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
         <div> 
             <div className=" pb-10 flex item-center gap-20">
-                <p className="flex items-center gap-1"><span className="text-orange-500"><BsFillTelephoneFill/></span>(123) 456-7890</p>
-                <p className="flex items-center gap-1"><span className="text-orange-500"><AiTwotonePrinter/></span>(123) 456-7890</p>
+                <p className="flex items-center gap-1"><span className="text-green-500"><BsFillTelephoneFill/></span>(123) 456-7890</p>
+                <p className="flex items-center gap-1"><span className="text-green-500"><AiTwotonePrinter/></span>(123) 456-7890</p>
             </div>
 
 <div className=" pb-10 flex flex-col items-center gap-5 lg:flex-row">
 <p className="text-slate-400">Social Media</p>
-            <ul className=" flex md:flex-row gap-5 text-orange-500">
+            <ul className=" flex md:flex-row gap-5 text-green-500">
                 <li><AiFillFacebook size={20}/></li>
                 <li><AiOutlineTwitter size={20}/></li>
                 <li><GrLinkedinOption size={20}/></li>

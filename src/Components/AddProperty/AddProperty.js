@@ -20,7 +20,7 @@ const AddProperty = () => {
       </p>
 
      <section className="form_container">
-       <p className="font-bold text-orange-500 text-lg md:text-xl lg:text-2xl text-center py-7 md:py-10 lg:py-20">Add A New Property</p>
+       <p className="font-bold text-green-500 text-lg md:text-xl lg:text-2xl text-center py-7 md:py-10 lg:py-20">Add A New Property</p>
      <div className="input_container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
 
         <InputField id="name" label="Name" type="text" />
@@ -92,7 +92,7 @@ const AddProperty = () => {
         <textarea id="description" className=" px-2 rounded-[5px] mt-3 mb-5 w-[100%] h-[200px] border-2 border-[#DDDDDD]"></textarea>
      </div>
     <AddImg/>
-    <button className="text-white bg-orange-500 p-3 rounded-lg font-bold my-10">Add New Property</button>
+    <button className="text-white bg-green-500 p-3 rounded-lg font-bold my-10">Add New Property</button>
      </section>
 </section>
     </Fragment>

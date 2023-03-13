@@ -8,10 +8,10 @@ const Owners_card = ({role, details, image, name })=>{
             <p  className=" leading-6 text-justify">{details}</p>
             <div className="flex items-center gap-3"> 
                 <div>
-                <img className='rounded-full w-[60px] h-[60px] border-2 border-orange-500 mt-9 mb-2' src={image}/>
+                <img className='rounded-full w-[60px] h-[60px] border-2 border-green-500 mt-9 mb-2' src={image}/>
                 </div>
                 <div className="pt-7">
-                    <h4 className="text-sm font-bold text-orange-500">{name}</h4>
+                    <h4 className="text-sm font-bold text-green-500">{name}</h4>
                     <p className="text-[12px] font-bold">{role}</p>
                 </div>
             </div>

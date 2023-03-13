@@ -14,7 +14,7 @@ const Options =()=>{
         <p className="pb-5 text-justify leading-7">
         You need it? We got it. We make finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.
         </p>
-        <button className="text-white bg-orange-500 p-3 rounded-lg font-bold">
+        <button className="text-white bg-green-500 p-3 rounded-lg font-bold">
             Search Rooms
         </button>
     </section>

@@ -14,7 +14,7 @@
     color: rgb(255, 107, 53);
 }
 .span{
-    border-bottom: 4px solid orange !important; 
+    border-bottom: 4px solid #22C55E !important; 
 }
 .input_items{
     width: 100%;
@@ -59,7 +59,7 @@ justify-content: center;
     border-radius: 8px;
 }
 #upload{
-    color: #f97316;
+    color: #22C55E;
     font-weight: bold;
     margin-left: 90px;
     display: flex;
