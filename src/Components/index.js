@@ -11,3 +11,4 @@ export {default as Article} from "./Article/Article";
 export {default as Owners_card} from "./Owners_card/Owners_card";
 export {default as Footer} from "./Footer/Footer";
 export {default as InputField} from "./InputField/InputField";
+export {default as Lazyloading} from "./Lazyloading/Lazyloading";

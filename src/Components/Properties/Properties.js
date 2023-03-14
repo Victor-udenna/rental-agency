@@ -1,11 +1,12 @@
 import React, { Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-import Property_Card from "../Property_Card/Property_Card";
+import PropertyCard from "../PropertyCard/PropertyCard";
+import {Lazyloading} from "../../Components";
 
 const Properties = () => {
   const [propertydata, setpropertydata] = useState([]);
-  const [page, setpage] = useState(1)
+  const [page, setpage] = useState(1);
 
   useEffect(() => {
     axios
@@ -20,6 +21,7 @@ const Properties = () => {
   console.log(page)
   return (
     <Fragment>
+     
       <section className=" px-10 py-10 flex justify-between items-center lg:px-20">
         {" "}
         <h2 className="text-2xl font-bold py-4">
@@ -32,9 +34,9 @@ const Properties = () => {
       </section>
       <div className="px-10 lg:px-20">
         <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
-          {propertydata?.map((items) => {
+          {   <Lazyloading/> &&    propertydata?.map((items) => {
             return  (
-              <Property_Card
+              <PropertyCard
                 key={items.id}
                 roomtype={items.roomType}
                 address={items.address}

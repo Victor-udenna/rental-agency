@@ -1,7 +1,7 @@
 import React, { Fragment, useEffect, useState } from "react";
 import { NavBar, Footer, Article } from "../../Components";
 import axios from "axios";
-import Property_Card from "../../Components/Property_Card/Property_Card";
+import PropertyCard from "../../Components/PropertyCard/PropertyCard";
 
 const AllProperties =()=>{
     const [propertydata, setpropertydata] = useState([]);
@@ -25,7 +25,7 @@ const AllProperties =()=>{
         <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
           {propertydata?.map((items) => {
             return  (
-              <Property_Card
+              <PropertyCard
                 key={items.id}
                 roomtype={items.roomType}
                 address={items.address}
