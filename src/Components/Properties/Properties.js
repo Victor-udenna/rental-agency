@@ -34,7 +34,7 @@ const Properties = () => {
       </section>
       <div className="px-10 lg:px-20">
         <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
-          {  propertydata ?    propertydata?.map((items) => {
+          {   <Lazyloading/> &&    propertydata?.map((items) => {
             return  (
               <PropertyCard
                 key={items.id}
@@ -47,7 +47,7 @@ const Properties = () => {
                 price={items.price}
               />
             ) 
-          }) : <Lazyloading/>}
+          })}
         </div>
         <ul className=" border-2 border-slate-200 text-white w-[300px]  mx-auto flex justiy-center items-center font-bold">
           <li className=" border-r-2 text-green-500 cursor-pointer w-[87px] h-[60px]  flex flex-col justify-center items-center hover:bg-green-500 hover:text-white"
