@@ -5,7 +5,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1200",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "2",
         "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 1
@@ -15,7 +15,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1400",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 2
@@ -25,7 +25,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1250",
-        "bedrom": "3",
+        "bedroom": "3",
         "bathroom": "3",
         "imageURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 3
@@ -35,9 +35,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$300",
-        "bedrom": "2",
+        "bedroom": "2",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1582063289852-62e3ba2747f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 4
       },
       {
@@ -47,7 +47,7 @@
         "price": "$1100",
         "bedroom": "4",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1430285561322-7808604715df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 5
       },
       {
@@ -55,7 +55,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1850",
-        "bedrom": "5",
+        "bedroom": "5",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80",
         "id": 6
@@ -65,7 +65,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1200",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "2",
         "imageURL": "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 7
@@ -75,7 +75,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1400",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 8
@@ -85,7 +85,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1250",
-        "bedrom": "3",
+        "bedroom": "3",
         "bathroom": "3",
         "imageURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 9
@@ -95,9 +95,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$300",
-        "bedrom": "2",
+        "bedroom": "2",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 10
       },
       {
@@ -115,9 +115,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1850",
-        "bedrom": "5",
+        "bedroom": "5",
         "bathroom": "4",
-        "imageURL": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1584738766473-61c083514bf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 12
       },
       {
@@ -125,7 +125,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1200",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "2",
         "imageURL": "https://images.unsplash.com/photo-1571939228382-b2f2b585ce15?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "id": 13
@@ -135,7 +135,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1400",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 14
@@ -145,9 +145,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1250",
-        "bedrom": "3",
+        "bedroom": "3",
         "bathroom": "3",
-        "imageURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1599427303058-f04cbcf4756f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80",
         "id": 15
       },
       {
@@ -155,9 +155,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$300",
-        "bedrom": "2",
+        "bedroom": "2",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1591170715502-fbc32adc4f52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 16
       },
       {
@@ -167,7 +167,7 @@
         "price": "$1100",
         "bedroom": 3,
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1623298317883-6b70254edf31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 17
       },
       {
@@ -175,9 +175,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1850",
-        "bedrom": "5",
+        "bedroom": "5",
         "bathroom": "4",
-        "imageURL": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1592595896616-c37162298647?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 18
       },
       {
@@ -185,7 +185,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1200",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "2",
         "imageURL": "https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 19
@@ -195,7 +195,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1400",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 20
@@ -205,7 +205,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1250",
-        "bedrom": "3",
+        "bedroom": "3",
         "bathroom": "3",
         "imageURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 21
@@ -215,7 +215,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$300",
-        "bedrom": "2",
+        "bedroom": "2",
         "bathroom": "2",
         "imageURL": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 22
@@ -227,7 +227,7 @@
         "price": "$1100",
         "bedroom": "4",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1591170715502-fbc32adc4f52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 23
       },
       {
@@ -235,7 +235,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1850",
-        "bedrom": "5",
+        "bedroom": "5",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80",
         "id": 24
@@ -245,9 +245,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1200",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 25
       },
       {
@@ -255,9 +255,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1400",
-        "bedrom": "4",
+        "bedroom": "4",
         "bathroom": "4",
-        "imageURL": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 26
       },
       {
@@ -265,7 +265,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1250",
-        "bedrom": "3",
+        "bedroom": "3",
         "bathroom": "3",
         "imageURL": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 27
@@ -275,9 +275,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$300",
-        "bedrom": "2",
+        "bedroom": "2",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "id": 28
       },
       {
@@ -287,7 +287,7 @@
         "price": "$1100",
         "bedroom": "4",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1956&q=80",
         "id": 29
       },
       {
@@ -295,7 +295,7 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1850",
-        "bedrom": "5",
+        "bedroom": "5",
         "bathroom": "4",
         "imageURL": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80",
         "id": 30
@@ -305,9 +305,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$300",
-        "bedrom": "2",
+        "bedroom": "2",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://media.istockphoto.com/id/471317909/photo/large-modern-suburban-house-with-a-large-garden.jpg?s=170667a&w=0&k=20&c=47ga6OFG6KzUanRuuuix_EBdGBdbK4bmwR8Ee0gk7h8=",
         "id": 31
       },
       {
@@ -317,7 +317,7 @@
         "price": "$1100",
         "bedroom": "4",
         "bathroom": "2",
-        "imageURL": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageURL": "https://media.istockphoto.com/id/1283770448/photo/colonial-style-house.jpg?s=170667a&w=0&k=20&c=IgrC49sDNEaBg0Ee41LQJyxGbya8aDdFJZrdwwddf54=",
         "id": 32
       },
       {
@@ -325,9 +325,9 @@
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
         "price": "$1850",
-        "bedrom": "5",
+        "bedroom": "5",
         "bathroom": "4",
-        "imageURL": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80",
+        "imageURL": "https://media.istockphoto.com/id/184989906/photo/typical-neighborhood-in-small-town-america.jpg?s=170667a&w=0&k=20&c=kuPaK6t5SFJZYp2egfZhODMUcMB9WOi80Ez6CFtstLU=",
         "id": 33
       }
     ]

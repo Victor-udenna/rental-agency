@@ -27,7 +27,7 @@ const ContactUs =()=>{
         <br/>
         <textarea id="description" className=" px-2 rounded-[5px] mt-3 mb-5 w-[100%] h-[200px] border-2 border-[#DDDDDD]"></textarea>
      </div>
-    <button className=" flex  items-center text-white bg-orange-500 p-3 rounded-lg font-bold my-10">Send <span className="pl-2"><FaPaperPlane/></span></button>
+    <button className=" flex  items-center text-white bg-green-500 p-3 rounded-lg font-bold my-10">Send <span className="pl-2"><FaPaperPlane/></span></button>
      </section>
 </section>
 <Footer/>
