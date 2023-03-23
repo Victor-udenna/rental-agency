@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import loadingIMG from "../../assets/images/load.png"
 
-export const Lazyloading = () => {
+export const LazyloadingComponent = () => {
   return (
 <Fragment>
 <div className=" pr-0  bg-slate-50 card_property w-[280px] h-[400px] rounded-lg flex flex-col justify-between mb-5 lg:mb-7 justify-between xl:w-[300px]">
@@ -134,4 +134,4 @@ export const Lazyloading = () => {
 }
 
 
-export default Lazyloading;
+export default LazyloadingComponent;

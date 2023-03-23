@@ -2,26 +2,34 @@ import React, { Fragment, useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import PropertyCard from "../PropertyCard/PropertyCard";
-import {Lazyloading} from "../../Components";
+import {LazyloadingComponent} from "../../Components";
 
 const Properties = () => {
   const [propertydata, setpropertydata] = useState([]);
+  const [loading, setloading] = useState(false);
   const [page, setpage] = useState(1);
+  const [ezekiel, setezikiel] = useState(1);
+
 
   useEffect(() => {
     axios
       .get(`http://localhost:5000/property_data?_page=${page}&_limit=6`)
       .then((response) => {
         setpropertydata(response.data);
+        setloading(false)
+        console.log(loading);
+        console.log(ezekiel)
+        setezikiel(7)
       })
       .catch((error) => {
         console.log(error);
+        setloading(true);
       });
+      setloading(false)
   }, [page]);
-  console.log(page)
+
   return (
     <Fragment>
-     
       <section className=" px-10 py-10 flex justify-between items-center lg:px-20">
         {" "}
         <h2 className="text-2xl font-bold py-4">
@@ -34,7 +42,7 @@ const Properties = () => {
       </section>
       <div className="px-10 lg:px-20">
         <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-10">
-          {   <Lazyloading/> &&    propertydata?.map((items) => {
+          {loading ? <LazyloadingComponent/> : propertydata?.map((items) => {
             return  (
               <PropertyCard
                 key={items.id}
@@ -72,6 +80,8 @@ const Properties = () => {
           </li>
         </ul>
       </div>
+
+      {/* <div>{setezikiel(7)}</div> */}
  </Fragment>
   );
 };

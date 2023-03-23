@@ -304,10 +304,10 @@
         "roomType": "private",
         "address": "2578 Folsom street, san francisco, CA, 94110",
         "floor": "2",
-        "price": "$300",
+        "price": "$990",
         "bedroom": "2",
         "bathroom": "2",
-        "imageURL": "https://media.istockphoto.com/id/471317909/photo/large-modern-suburban-house-with-a-large-garden.jpg?s=170667a&w=0&k=20&c=47ga6OFG6KzUanRuuuix_EBdGBdbK4bmwR8Ee0gk7h8=",
+        "imageURL": "https://images.unsplash.com/photo-1519227355453-8f982e425321?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE4fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=600&q=60",
         "id": 31
       },
       {
