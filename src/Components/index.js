@@ -12,3 +12,6 @@ export {default as Owners_card} from "./Owners_card/Owners_card";
 export {default as Footer} from "./Footer/Footer";
 export {default as InputField} from "./InputField/InputField";
 export {default as LazyloadingComponent} from "./LazyloadingComponent/LazyloadingComponent";
+export {default as Landlord_banner} from "./Landlord_banner/Landlord_banner";
+export {default as Landlord_card} from "./Landlord_card/Landlord_card";
+export {default as Landloardlist} from "./Landlordlist/Landlordlist";

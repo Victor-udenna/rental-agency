@@ -3,7 +3,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
- Option_bg: " url(./assets/images/options_img_1.avif)"
+ Option_bg: " url(./assets/images/options_img_1.avif)",
+ Landloard_bg: " url(./assets/images/lanlord_page.avif)" 
       },
 
       colors:{
