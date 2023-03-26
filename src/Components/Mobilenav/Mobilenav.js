@@ -30,7 +30,7 @@ const Mobilenav = () => {
       >
         <ul className=" pl-5 bg-secondary_bg">
          <Link to="/"><li className="active_list p-5">Home</li></Link> 
-          <Link to="/Landlord"><li className="p-5">Landloard</li></Link>
+          <Link to="/Landlord"><li className="p-5">Landlord</li></Link>
           <Link to="/Tenant"><li className="p-5">Tenant</li></Link>
           <Link to="/ContactUs"><li className="p-5">Contact Us</li></Link>
         </ul>

@@ -11,7 +11,7 @@ const DesktopNav = () => {
       <div className="z-20">
         <ul className="text-white text-[16px] flex items-center justify-between">
          <Link to="/"> <li className="py-7 cursor-pointer pr-10">Home</li></Link>
-          <Link to="/Landlord"><li className="cursor-pointer pr-10">Landloard</li></Link>
+          <Link to="/Landlord"><li className="cursor-pointer pr-10">Landlord</li></Link>
          <Link to="/Tenant"> <li className="cursor-pointer pr-10">Tenant</li></Link>
          <Link to="/ContactUs"> <li className="pr-5 cursor-pointer">Contact Us</li></Link>
         </ul>

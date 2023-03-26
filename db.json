@@ -330,5 +330,151 @@
         "imageURL": "https://media.istockphoto.com/id/184989906/photo/typical-neighborhood-in-small-town-america.jpg?s=170667a&w=0&k=20&c=kuPaK6t5SFJZYp2egfZhODMUcMB9WOi80Ez6CFtstLU=",
         "id": 33
       }
+    ],
+    "Landlord_data":[
+      {
+        "Name": "Joe Francis",
+        "email": "Joefranc@gmail.com",
+        "average_price": "$2050",
+        "Total_property": 27,
+        "rating": "⭐⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1535643302794-19c3804b874b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fG9sZCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 1
+      },
+      {
+        "Name": "Rita Ike",
+        "email": "Janestacy@gmail.com",
+        "average_price": "$1950",
+        "Total_property": 26,
+        "rating": "⭐⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1589156191108-c762ff4b96ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8YmxhY2slMjB3b21hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 2
+      },
+      {
+        "Name": "Benjamin ayodeji",
+        "email": "aybenjajamin@yahoo.com",
+        "average_price": "$1450",
+        "Total_property": 27,
+        "rating": "⭐⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1614023342667-6f060e9d1e04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YWZyaWNhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 3
+      },
+      {
+        "Name": "Frank Stuate",
+        "email": "Frankstuat@gmail.com",
+        "average_price": "$1900",
+        "Total_property": 24,
+        "rating": "⭐⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1533101585792-27f81a845550?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fG9sZCUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 4
+      },
+      {
+        "Name": "Lyna lapid",
+        "email": "lapidly@gmail.com",
+        "average_price": "$1250",
+        "Total_property": 24,
+        "rating": "⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1573165850883-9b0e18c44bd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YnVpc25lc3MlMjB3b21lbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 5
+      },
+      {
+        "Name": "Micheal Johnson",
+        "email": "michealljson@gmail.com",
+        "average_price": "$1350",
+        "Total_property": 24,
+        "rating": "⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1612214070475-1e73f478188c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsYWNrJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 6
+      },
+      {
+        "Name": "Abdullahi jimoh",
+        "email": "jimoah@yahoo.com",
+        "average_price": "$1150",
+        "Total_property": 21,
+        "rating": "⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1620932934088-fbdb2920e484?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YWZyaWNhbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 7
+      },
+      {
+        "Name": "Jane francis",
+        "email": "janefrancis003@gmail.com",
+        "average_price": "$1560",
+        "Total_property": 19,
+        "rating": "⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1507152832244-10d45c7eda57?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGJsYWNrJTIwd29tYW4lMjB3aXRoJTIwZ2xhc3Nlc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 8
+      },
+      {
+        "Name": "Henry spence",
+        "email": "henryspence@gmail.com",
+        "average_price": "$1440",
+        "Total_property": 16,
+        "rating": "⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "id": 9
+      },
+      {
+        "Name": "Ryan Scott",
+        "email": "ryanscot@gmail.com",
+        "average_price": "$1080",
+        "Total_property": 19,
+        "rating": "⭐⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1590086782792-42dd2350140d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fHdoaXRlJTIwbWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 10
+      },
+      {
+        "Name": "Aashvi Acharya",
+        "email": "AashiAchary@yahoo.com",
+        "average_price": "$1100",
+        "Total_property": 17,
+        "rating": "⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1638791428934-59c43e44da75?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aW5kaWFuJTIwd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "id": 11
+      },
+      {
+        "Name": "Maria Sanchez",
+        "email": "mlsanchez@gmail.com",
+        "average_price": "$950",
+        "Total_property": 14,
+        "rating": "⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGluZGlhbiUyMCUyMGJ1aXNuZXNzJTIwd29tYW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60",
+        "id": 12
+      },
+      {
+        "Name": "Olivia Taylor",
+        "email": "Oltaylor@gmail.com",
+        "average_price": "$850",
+        "Total_property": 17,
+        "rating": "⭐⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c3R1ZGVudHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 13
+      },
+      {
+        "Name": "Bruno Davis",
+        "email": "brunaDavis@gmail.com",
+        "average_price": "$1350",
+        "Total_property": 24,
+        "rating": "⭐⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1619380612094-d06429fa92d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFsZSUyMGNvbGxlZ2UlMjBzdHVkZW50fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 14
+      },
+      {
+        "Name": "Azariah Harper",
+        "email": "azariahapaa.@gmail.com",
+        "average_price": "$1200",
+        "Total_property": 7,
+        "rating": "⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8cGFydHklMjBnaXJsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "id": 15
+      },
+      {
+        "Name": "Bryan bryson",
+        "email": "michealljson@gmail.com",
+        "average_price": "$1243",
+        "Total_property": 9,
+        "rating": "⭐",
+        "Profile_imageURL": "https://images.unsplash.com/photo-1519689373023-dd07c7988603?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "id": 16
+      }
     ]
   }

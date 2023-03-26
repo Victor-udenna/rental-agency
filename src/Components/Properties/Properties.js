@@ -8,7 +8,6 @@ const Properties = () => {
   const [propertydata, setpropertydata] = useState([]);
   const [loading, setloading] = useState(false);
   const [page, setpage] = useState(1);
-  const [ezekiel, setezikiel] = useState(1);
 
 
   useEffect(() => {
@@ -18,8 +17,6 @@ const Properties = () => {
         setpropertydata(response.data);
         setloading(false)
         console.log(loading);
-        console.log(ezekiel)
-        setezikiel(7)
       })
       .catch((error) => {
         console.log(error);
