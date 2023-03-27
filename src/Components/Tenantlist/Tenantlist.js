@@ -35,7 +35,7 @@ return(
 <td>{items.property_id}</td>
 <td>{items.Price}</td>
 <td>{items.location}</td>
-{<td>{items.status && <span className='text-green-500 bg-green-100 px-5'>Paid</span> || <span className='text-red-500 bg-red-100 px-1'>Pending</span>}</td>}
+<td>{items.status && <span className='text-green-500 bg-green-100 px-5'>Paid</span> || <span className='text-red-500 bg-red-100 px-1'>Pending</span>}</td>
 </tr>
 )
 })}
