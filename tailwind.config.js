@@ -4,7 +4,8 @@ module.exports = {
     extend: {
       backgroundImage: {
  Option_bg: " url(./assets/images/options_img_1.avif)",
- Landloard_bg: " url(./assets/images/lanlord_page.avif)" 
+ Landloard_bg: " url(./assets/images/lanlord_page.avif)",
+ Tenant_bg: " url(./assets/images/tenant.avif)"  
       },
 
       colors:{

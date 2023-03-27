@@ -23,7 +23,7 @@ const ContactUs =()=>{
         <InputField id="subject" label="Subject" type="text" />
       </div>
       <div>
-        <label className="font-bold" htmlFor="description">Message <span className="text-green-500"> *</span></label>
+        <label className="font-bold" htmlFor="description">Message <span className="text-orange-500"> *</span></label>
         <br/>
         <textarea id="description" className=" px-2 rounded-[5px] mt-3 mb-5 w-[100%] h-[200px] border-2 border-[#DDDDDD]"></textarea>
      </div>

@@ -34,6 +34,39 @@ width: 100%;
 height: 100%;
 }
 
+tr{
+    font-size: 10px;
+  }
+
+  tr:nth-child(even) {
+    background-color: honeydew;
+  }
+
+  .t_header th{
+    padding-bottom: 10px;
+  }
+
+  .tr td{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
+  @media screen and (min-width: 768px){
+    tr{
+        font-size: 14px;
+    }
+
+    .tr td{
+        padding-top: 16px;
+        padding-bottom: 16px;
+      }
+
+      
+  .t_header th{
+    padding-bottom: 16px;
+  }
+  }
+
 @media screen and (min-width: 1024px){
     .feature_img{
         border-radius: 50px 0px;
@@ -45,6 +78,22 @@ border-radius: 10px;
 padding: 2rem;
 margin: auto;
     }
+
+    tr{
+        font-size: 16px;
+       
+    }
+
+    .tr td{
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      
+      
+  .t_header th{
+    padding-bottom: 20px;
+  }
     
     /* .property_container .card_property:nth-child(3), .property_container .card_property:nth-child(6){
         justify-self: end;
@@ -54,6 +103,7 @@ margin: auto;
         justify-self: center;
     } */
 }
+
 .map_container{
 display: flex;
 align-items: center;
@@ -79,7 +129,6 @@ justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
-
 
 
 .lazyColor {
@@ -122,3 +171,4 @@ animation: AnimationName 2s ease infinite reverse;
       transform: rotate(360deg) 
     }
   }
+

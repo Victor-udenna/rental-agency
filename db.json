@@ -476,5 +476,217 @@
         "Profile_imageURL": "https://images.unsplash.com/photo-1519689373023-dd07c7988603?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
         "id": 16
       }
+    ], "Tenant_Data":[
+      {
+        "id": 1,
+        "Name": "Zollie Purshouse",
+        "property_id": "766532024-4",
+        "Price": "$103.42",
+        "location": "Neskaupstaður",
+        "status": false
+      }, {
+        "id": 2,
+        "Name": "Marilee Wathell",
+        "property_id": "456306724-5",
+        "Price": "$597.60",
+        "location": "Namwala",
+        "status": false
+      }, {
+        "id": 3,
+        "Name": "Timmie Fewings",
+        "property_id": "052476352-6",
+        "Price": "$100.82",
+        "location": "Danyang",
+        "status": false
+      }, {
+        "id": 4,
+        "Name": "Lorens Iannini",
+        "property_id": "846732392-2",
+        "Price": "$629.63",
+        "location": "Qinghua",
+        "status": false
+      }, {
+        "id": 5,
+        "Name": "Welsh Fackney",
+        "property_id": "106928177-8",
+        "Price": "$959.15",
+        "location": "Tambobamba",
+        "status": true
+      }, {
+        "id": 6,
+        "Name": "Fannie Arendt",
+        "property_id": "015506176-3",
+        "Price": "$484.23",
+        "location": "Kolodenka",
+        "status": false
+      }, {
+        "id": 7,
+        "Name": "Quillan Lillow",
+        "property_id": "365351630-7",
+        "Price": "$582.95",
+        "location": "Novo Horizonte",
+        "status": true
+      }, {
+        "id": 8,
+        "Name": "Ilsa Criag",
+        "property_id": "090830756-X",
+        "Price": "$904.89",
+        "location": "Séléa",
+        "status": false
+      }, {
+        "id": 9,
+        "Name": "Bernie Minogue",
+        "property_id": "467234582-3",
+        "Price": "$277.97",
+        "location": "Peliyagoda",
+        "status": false
+      }, {
+        "id": 10,
+        "Name": "Milton Burman",
+        "property_id": "483690547-8",
+        "Price": "$809.93",
+        "location": "Mene de Mauroa",
+        "status": false
+      }, {
+        "id": 11,
+        "Name": "Theresina Ebhardt",
+        "property_id": "251911535-1",
+        "Price": "$516.10",
+        "location": "Smolyan",
+        "status": false
+      }, {
+        "id": 12,
+        "Name": "Linnell Carslake",
+        "property_id": "495545016-4",
+        "Price": "$419.46",
+        "location": "Bełk",
+        "status": false
+      }, {
+        "id": 13,
+        "Name": "Pyotr Videneev",
+        "property_id": "806936351-7",
+        "Price": "$841.08",
+        "location": "Bobai",
+        "status": true
+      }, {
+        "id": 14,
+        "Name": "Germayne Sandes",
+        "property_id": "889360301-2",
+        "Price": "$779.09",
+        "location": "Berëzovyy",
+        "status": false
+      }, {
+        "id": 15,
+        "Name": "Waylon Hazzard",
+        "property_id": "820403749-X",
+        "Price": "$903.91",
+        "location": "Guang’an",
+        "status": false
+      }, {
+        "id": 16,
+        "Name": "Linnell Fahrenbacher",
+        "property_id": "153577354-5",
+        "Price": "$794.24",
+        "location": "Oslo",
+        "status": true
+      }, {
+        "id": 17,
+        "Name": "Alain Wilkerson",
+        "property_id": "170085541-7",
+        "Price": "$175.95",
+        "location": "Przemków",
+        "status": false
+      }, {
+        "id": 18,
+        "Name": "Berny Routh",
+        "property_id": "762279040-0",
+        "Price": "$462.83",
+        "location": "Holboo",
+        "status": false
+      }, {
+        "id": 19,
+        "Name": "Jilly Josebury",
+        "property_id": "028479077-X",
+        "Price": "$519.80",
+        "location": "Shantoudian",
+        "status": true
+      }, {
+        "id": 20,
+        "Name": "Rayshell Wilding",
+        "property_id": "637768961-6",
+        "Price": "$783.82",
+        "location": "Addiet Canna",
+        "status": false
+      }, {
+        "id": 21,
+        "Name": "Rossy Gillis",
+        "property_id": "485208364-9",
+        "Price": "$359.45",
+        "location": "Meicheng",
+        "status": false
+      }, {
+        "id": 22,
+        "Name": "Lynn Steinor",
+        "property_id": "972648024-8",
+        "Price": "$608.13",
+        "location": "Skien",
+        "status": false
+      }, {
+        "id": 23,
+        "Name": "Dew Eisak",
+        "property_id": "686771528-1",
+        "Price": "$648.11",
+        "location": "Haozhai",
+        "status": false
+      }, {
+        "id": 24,
+        "Name": "Sawyer Drews",
+        "property_id": "575600985-X",
+        "Price": "$844.07",
+        "location": "Aguas Corrientes",
+        "status": true
+      }, {
+        "id": 25,
+        "Name": "Nerissa Pring",
+        "property_id": "565611168-7",
+        "Price": "$114.15",
+        "location": "Du’ermenqin",
+        "status": true
+      }, {
+        "id": 26,
+        "Name": "Rab Wiffler",
+        "property_id": "905567159-2",
+        "Price": "$293.50",
+        "location": "Xiaochuan",
+        "status": false
+      }, {
+        "id": 27,
+        "Name": "Becka Reddoch",
+        "property_id": "339504827-6",
+        "Price": "$640.29",
+        "location": "Mafang",
+        "status": true
+      }, {
+        "id": 28,
+        "Name": "Dom Eilhart",
+        "property_id": "486732826-X",
+        "Price": "$415.24",
+        "location": "Blagoveshchenka",
+        "status": true
+      }, {
+        "id": 29,
+        "Name": "Fee Gawkroge",
+        "property_id": "907417491-4",
+        "Price": "$163.41",
+        "location": "Dera Murād Jamāli",
+        "status": false
+      }, {
+        "id": 30,
+        "Name": "Timi McNulty",
+        "property_id": "656883220-0",
+        "Price": "$461.22",
+        "location": "Sujiatun",
+        "status": true
+      }
     ]
   }

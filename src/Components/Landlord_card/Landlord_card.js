@@ -6,7 +6,6 @@ import React, { Fragment } from 'react'
         <div className=' w-[320px] rounded my-10 mx-2 border-2 border-slat-300 flex flex-col items-center'>
  <div className='p-7 border-b-2 border-green-100 w-[100%] flex justify-center items-center'><img className='w-[150px] h-[150px] border-4 border-green-500 rounded-full' src={profile_photo}/></div>
  <div>
-
 <p className='text-center text-2xl font-bold py-5'>{name}</p>
 
 <div className='grid grid-cols-2 gap-5'>

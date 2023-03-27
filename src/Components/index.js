@@ -15,3 +15,6 @@ export {default as LazyloadingComponent} from "./LazyloadingComponent/Lazyloadin
 export {default as Landlord_banner} from "./Landlord_banner/Landlord_banner";
 export {default as Landlord_card} from "./Landlord_card/Landlord_card";
 export {default as Landloardlist} from "./Landlordlist/Landlordlist";
+export {default as Landlordlazyload} from "./Landlordlazyload/Landlordlazyload";
+export {default as Tenant_banner} from "./Tenant_banner/Tenant_banner";
+export {default as Tenantlist} from "./Tenantlist/Tenantlist";
