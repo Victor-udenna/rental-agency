@@ -95,13 +95,13 @@ margin: auto;
     padding-bottom: 20px;
   }
     
-    /* .property_container .card_property:nth-child(3), .property_container .card_property:nth-child(6){
+    .property_container .card_property:nth-child(3), .property_container .card_property:nth-child(6){
         justify-self: end;
     }
 
     .property_container .card_property:nth-child(2), .property_container .card_property:nth-child(5){
         justify-self: center;
-    } */
+    }
 }
 
 .map_container{

@@ -1,21 +1,29 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import TableLazyloading from '../TableLazyloading/TableLazyloading';
 
 const Tenantlist = () => {
 
   const [tenantdata, setTenantdata] = useState([])
+  const [lazyloading, setlazyloading] = useState(false);
+
   useEffect(()=>{
     axios.get("http://localhost:5000/tenant_data")
     .then((response)=>{
 setTenantdata(response.data)
+setlazyloading(false)
     }).catch((error)=>{
       console.log(error)
+      setlazyloading(true)
     })
   }, [])
 
 
   return (
-    <div>
+    <section>
+      <div className=' py-10 px-10 lg:py-20 lg:px-20'>
+      <h1 className='text-lg font-bold md:text-2xl lg:text-3xl text-green-500 pt-10 pb-20'>All registered tenant</h1>
+      </div>
       <table className='w-[100%]'>
 <thead>
 <tr className='t_header'>
@@ -26,9 +34,9 @@ setTenantdata(response.data)
     <th>Status</th>
   </tr>
 </thead>
-
 <tbody>
-{tenantdata.map((items)=>{
+
+{ lazyloading ? <TableLazyloading/> : tenantdata.map((items)=>{
 return( 
   <tr className='text-center tr' key={items.id}>
 <td>{items.Name}</td>
@@ -39,19 +47,12 @@ return(
 </tr>
 )
 })}
-  {/* <tr className='text-center'>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr> */}
 </tbody>
 
 <tfoot>
 </tfoot>
       </table>
-    </div>
+    </section>
   )
 }
 

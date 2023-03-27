@@ -2,18 +2,22 @@ import React, { Fragment, useEffect, useState } from "react";
 import { NavBar, Footer, Article } from "../../Components";
 import axios from "axios";
 import PropertyCard from "../../Components/PropertyCard/PropertyCard";
+import {LazyloadingComponent} from "../../Components";
 
 const AllProperties =()=>{
     const [propertydata, setpropertydata] = useState([]);
+    const [loading, setloading] = useState(false)
 
     useEffect(() => {
         axios
           .get(`http://localhost:5000/property_data`)
           .then((response) => {
             setpropertydata(response.data);
+            setloading(false)
           })
           .catch((error) => {
             console.log(error);
+            setloading(true)
           });
       }, []);
 
@@ -22,8 +26,9 @@ const AllProperties =()=>{
  <NavBar/>   
  <div className="px-10 lg:px-20">
     <h1 className="text-center font-bold text-green-500 text-2xl py-10 lg:text-left lg:py-16 lg:text-3xl">All Properties</h1>
-        <div className=" property_container py-10 grid gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-content-end">
-          {propertydata?.map((items) => {
+   
+        <div className="flex flex-wrap justify-center  items-center md:justify-between">
+          {loading ?  <LazyloadingComponent/> : propertydata?.map((items) => {
             return  (
               <PropertyCard
                 key={items.id}

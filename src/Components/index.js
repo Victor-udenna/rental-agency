@@ -18,3 +18,4 @@ export {default as Landloardlist} from "./Landlordlist/Landlordlist";
 export {default as Landlordlazyload} from "./Landlordlazyload/Landlordlazyload";
 export {default as Tenant_banner} from "./Tenant_banner/Tenant_banner";
 export {default as Tenantlist} from "./Tenantlist/Tenantlist";
+export {default as TableLazyloading} from "./TableLazyloading/TableLazyloading";
