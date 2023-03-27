@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const DesktopNav = () => {
   return (
-    <div className=" px-20 bg-secondary_bg hidden md:flex desktop_nav flex justify-between items-center py-3 w-screen overflow-none  border-b-2">
+    <div className=" px-20 bg-secondary_bg hidden md:flex desktop_nav flex justify-between items-center py-3  overflow-x-hidden  border-b-2">
       <div>
         <Link to="/"><img src={logo} className="w-[150px]" /></Link>
       </div>

@@ -8,10 +8,12 @@ import {Tenantlist} from "../../Components";
 const Tenant =()=>{
     return(
         <Fragment>
-            <NavBar/>
+<section className="w-[100%]">
+<NavBar/>
 <Tenant_banner/>
 <Tenantlist/>
 <Footer/>
+</section>
 </Fragment>
     );
 }
