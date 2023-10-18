@@ -16,7 +16,7 @@ const Properties = () => {
       .then((response) => {
         setpropertydata(response.data);
         setloading(false)
-        console.log(loading);
+        console.log(loading)
       })
       .catch((error) => {
         console.log(error);
